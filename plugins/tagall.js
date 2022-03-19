@@ -3,7 +3,7 @@ let handler = async (m, { conn, text, participants, isAdmin, isOwner }) => {
     if (!(isAdmin || isOwner)) return dfail('admin', m, conn)
   } else return dfail('group', m, conn)
   let users = participants.map(u => u.jid)
-  m.reply(`${text ? `${text}\n` : ''}┌─〔 Tag All 〕\n` + users.map(v => '├ @' + v.replace(/@.+/, '')).join`\n` + '\n└────')
+  m.reply(`${text ? `${text}\n` : ''}┌─〔 منشن جماعي سوري و كذا 〕\n` + users.map(v => '├💜🐋 @' + v.replace(/@.+/, '')).join`\n` + '\n└────')
 }
 
 handler.help = ['tagall']
