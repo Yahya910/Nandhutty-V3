@@ -15,8 +15,8 @@ const defaultMenu = {
   body: '✰ %cmd %islimit %isPremium',
   footer: '\n*[ ᴍᴏʀᴇ ғᴇᴀᴛᴜʀᴇs ᴄᴏᴍᴍɪɴɢ sᴏᴏɴ ]*\n',
   after: `
-*ᴛʜᴀɴᴋ ʏᴏᴜ ғᴏʀ ᴜsɪɴɢ ᴛʜᴇ ʙᴏᴛ🦄*
-*ʜᴏᴘᴇ ʏᴏᴜ ᴀʀᴇ ᴇɴᴊᴏʏɪɴɢ🦄*
+*اتنمى أن يعجبكم بوتي 🦄*
+*شكرا لاستعمال بوت يحيى🦄*
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
@@ -175,106 +175,106 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     if (teks == '404') {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
-          "title": `      🔮 ɴᴀɴᴅʜᴜᴛᴛʏ ᴠ3 🔮\n\╭─❑\n\│✅ Version: v3 \n\│✅ Library: Baileys\n\│✅ Runtime: ${uptime} \n\╰❑\n\╭─⭐ 「 INFO USER 」\n\│ 👤 Name: ${name} \n\│ 🔍 Total Features : 100+\n\│ ⚠️ Limit: ${limit} \n\│ 🗓️ Date: ${date} \n\│ 🔰 Exp: ${exp} \n\│ 💎 Level: ${level} \n\│ 🔮 Role: ${role} \n\│ 📟 Storage: 106/128 Gb \n\╰⭐\n\╭─ ❑「 INFORMATION 」❑──\n\│ This bot is still in testing stage\n\│ if there is a bug \ error please\n\│ report it to the owner\n\│\n\╰❑`.trim(),
-          "description": "ᴅᴏɴᴛ sᴘᴀᴍ",
-          "buttonText": "Click Here",
-          "footerText": "ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ᴀᴊᴍᴀʟ-ᴀᴄʜᴜ",
+          "title": `      🔮 بوت يحيى 🔮\n\╭─❑\n\│✅ التحديث: v3 \n\│✅ Library: Baileys\n\│✅ الوقت: ${uptime} \n\╰❑\n\╭─⭐ 「 معلومات المستخدم 」\n\│ 👤 الاسم: ${name} \n\│ 🔍 الميزات عدد : 100+\n\│ ⚠️ الحدود: ${limit} \n\│ 🗓️ اليوم: ${date} \n\│ 🔰 الاكيبس: ${exp} \n\│ 💎 اللفل: ${level} \n\│ 🔮 الدور: ${role} \n\│ 📟 المساحة: 106/128 Gb \n\╰⭐\n\╭─ ❑「 معلومات البوت 」❑──\n\│ البوت يشتغل الان\n\│ إذا صادفتك مشاكل في البوت \ نرجو منك\n\│ التحدت معي في الخاص \n\│\n\╰❑`.trim(),
+          "description": "لا للسبام"
+          "buttonText": "اضغط هنا",
+          "footerText": "مطور بواسطة يحيى و كذا",
           "listType": "SINGLE_SELECT",
           "sections": [
             {
               "rows": [
                 {
-                  "title": `𝐀𝐥𝐥 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬`,
+                  "title": `الكل`,
                   "description": "",
                   "rowId": `${_p}? all`
                 }, {
-                  "title": "𝐆𝐚𝐦𝐞 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬",
+                  "title": "الألعاب",
                   "description": "",
                   "rowId": `${_p}? game`
 
                 }, {
-                  "title": "𝐗𝐏",
+                  "title": "النقاط و الحدود",
                   "description": "",
                   "rowId": `${_p}? xp`
 
                 }, {
-                  "title": "𝐒𝐭𝐢𝐜𝐤𝐞𝐫",
+                  "title": "ستيكر",
                   "description": "",
                   "rowId": `${_p}? stiker`
                 }, {
-                  "title": "𝐌𝐚𝐠𝐢𝐜 𝐒𝐡𝐞𝐥𝐥",
+                  "title": "سحر و غرابة",
                   "description": "",
                   "rowId": `${_p}? shellajaib`
                 }, {
-                  "title": "𝐐𝐨𝐮𝐭𝐞𝐬",
+                  "title": "ما اعرف ايش",
                   "description": "",
                   "rowId": `${_p}? quotes`
                 }, {
-                  "title": "𝐀𝐝𝐦𝐢𝐧",
+                  "title": "المشرفين",
                   "description": "",
                   "rowId": `${_p}? admin`
                 }, {
-                  "title": "𝐆𝐫𝐨𝐮𝐩",
+                  "title": "المجموعة",
                   "description": "",
                   "rowId": `${_p}? grup`
                 }, {
-                  "title": "𝐏𝐫𝐞𝐦𝐢𝐧𝐮𝐦",
+                  "title": "VIP",
                   "description": "",
                   "rowId": `${_p}? premium`
                 }, {
-                  "title": "𝐈𝐧𝐭𝐞𝐫𝐧𝐞𝐭",
+                  "title": "انترنت",
                   "description": "",
                   "rowId": `${_p}? internet`
                 }, {
-                  "title": "𝐀𝐧𝐨𝐧𝐲𝐦𝐨𝐮𝐬",
+                  "title": "لبدء محادثة هكر",
                   "description": "",
                   "rowId": `${_p}? anonymous`
                 }, {
-                  "title": "𝐍𝐮𝐥𝐢𝐬 𝐀𝐍𝐝 𝐋𝐨𝐠𝐨",
+                  "title": "تعديل الصور",
                   "description": "",
                   "rowId": `${_p}? nulis`
                 }, {
-                  "title": "𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫",
+                  "title": "تحميل الفيديو",
                   "description": "",
                   "rowId": `${_p}? downloader`
                 }, {
-                  "title": "𝐓𝐨𝐨𝐥𝐬",
+                  "title": "الادوات",
                   "description": "",
                   "rowId": `${_p}? tools`
                 }, {
-                  "title": "𝐅𝐮𝐧",
+                  "title": "للضحك و كذا",
                   "description": "",
                   "rowId": `${_p}? fun`
                 }, {
-                  "title": "𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞",
+                  "title": "ملفات الداطا",
                   "description": "",
                   "rowId": `${_p}? database`
                 }, {
-                  "title": "𝐕𝐨𝐭𝐞 𝐀𝐍𝐝 𝐀𝐛𝐬𝐞𝐧",
+                  "title": "التصويت و الغياب",
                   "description": "",
                   "rowId": `${_p}? vote`
                 }, {
-                  "title": "𝐋𝐨𝐠𝐨 𝐌𝐚𝐤𝐞𝐫",
+                  "title": "صانع اللوغو",
                   "description": "",
                   "rowId": `${_p}? textpro`
                 }, {
-                  "title": "𝐀𝐮𝐝𝐢𝐨 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬",
+                  "title": "كومند صوت",
                   "description": "",
                   "rowId": `${_p}? audio`
                 }, {
-                  "title": "𝐉𝐚𝐝𝐢 𝐁𝐨𝐭",
+                  "title": "بوت يحيى",
                   "description": "",
                   "rowId": `${_p}? jadibot`
                 }, {
-                  "title": "𝐈𝐧𝐟𝐨",
+                  "title": "معلومات",
                   "description": "",
                   "rowId": `${_p}? info`
                 }, {
-                  "title": "𝐓𝐚𝐧𝐩𝐚 𝐂𝐚𝐭𝐞𝐠𝐨𝐫𝐲",
+                  "title": "كاطيغوري",
                   "description": "",
                   "rowId": `${_p}? tanpakategori`
                 }, {
-                  "title": "𝐎𝐰𝐧𝐞𝐫",
+                  "title": "صاحب النظام و كذا",
                   "description": "",
                   "rowId": `${_p}? owner`
                 }
@@ -313,7 +313,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     // ├ ${_p + command} jadibot
     // ├ ${_p + command} info
     // ├ ${_p + command} tanpa kategori
-    // ├ ${_p + command} owner
+    // ├ 
     // └────  
     //     `.trim()
     let groups = {}
@@ -399,18 +399,18 @@ function clockString(ms) {
 }
 function ucapan() {
   const time = moment.tz('Asia/Kolkata').format('HH')
-  res = "Good Morning 🌄"
+  res = "صباح الخير 🌄"
   if (time >= 4) {
-    res = "Good Morning 🌞"
+    res = "صباح الخيز🌞"
   }
   if (time > 10) {
-    res = "Good afternoon 🌅"
+    res = "هلو  🌅"
   }
   if (time >= 15) {
-    res = "Good Evening 🌆"
+    res = "مساء سعيد 🌆"
   }
   if (time >= 18) {
-    res = "Good Night 🌌"
+    res = "نوم هنيئ 🌌"
   }
   return res
 }
