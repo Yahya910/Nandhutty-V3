@@ -1,7 +1,7 @@
 let { GroupSettingChange } = require('@adiwajshing/baileys')
 let handler = m => m
 
-let badwordRegex = /anj(k|g)|ajn?(g|k)|a?njin(g|k)|bajingan|b(a?n)?gsa?t|ko?nto?l|me?me?(k|q)|pe?pe?(k|q)|meki|titi(t|d)|pe?ler|tetek|toket|ngewe|go?blo?k|to?lo?l|idiot|(k|ng)e?nto?(t|d)|jembut|bego|dajj?al|janc(u|o)k|pantek|puki ?(mak)?|kimak|kampang|lonte|col(i|mek?)|pelacur|henceu?t|nigga|fuck|dick|bitch|tits|bastard|asshole/i // tambahin sendiri
+let badwordRegex = /anj(k|g)|ajn?(g|k)|a?njin(g|k)|bajingan|b(a?n)?gsa?t|ko?nto?l|me?me?(k|q)|pe?pe?(k|q)|meki|titi(t|d)|pe?ler|krk|tbone|ngewe|go?blo?k|to?lo?l|idiot|(k|ng)e?nto?(t|d)|jembut|bego|dajj?al|janc(u|o)k|pantek|puki ?(mak)?|kimak|kampang|lonte|col(i|mek?)|pelacur|henceu?t|zbi|fuck|dick|zb|9hba|zaml|asshole/i // tambahin sendiri
 
 handler.before = function (m, { isOwner, isBotAdmin }) {
     if (m.isBaileys && m.fromMe) return !0
@@ -16,7 +16,7 @@ Warning: ${user.warning} / 5
 Jika warning mencapai 5 kamu akan dibanned
 
 Type *#on antibadword* untuk menyalakan antibadword
-Type *#astagfirullah* atau *#maaf* untuk mengurangi warning
+Type *#astagfirullah a5o🐦* atau *#maaf* untuk mengurangi warning
 
 “Barang siapa yang beriman kepada Allah dan Hari Akhir maka hendaklah dia berkata baik atau diam” (HR. al-Bukhari dan Muslim).`, 'ɴᴀɴᴅʜᴜᴛᴛʏ ᴠ3', 'Nyalakan Antibadword', ',1 antibadword', 'Astaghfirullah', ',maaf', m)
         if (user.warning >= 5) {
