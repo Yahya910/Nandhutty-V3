@@ -2,11 +2,11 @@ const roles = {
     /*
     'Role Name': <Minimal Level To Obtain this Role>
     */
-    'Warrior V': 0,
-    'Warrior IV': 5,
-    'Warrior III': 10,
-    'Warrior II': 15,
-    'Warrior I': 20,
+    'المحارب V': 0,
+    'المحارب IV': 5,
+    'المحارب III': 10,
+    'المحارب II': 15,
+    'المحارب  I': 20,
     'Elite V': 25,
     'Elite IV': 30,
     'Elite III': 35,
