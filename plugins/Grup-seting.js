@@ -16,14 +16,14 @@ Use:
 ${usedPrefix + command} <buka/tutup>
 
 Example :
-${usedPrefix + command} open
-${usedPrefix + command} close
+${usedPrefix + command} m7lol
+${usedPrefix + command} msdod
 	`.trim(), 'ɴᴀɴᴅʜᴜᴛᴛʏ ᴠ3', 'Open', ',grup 1', 'Close', ',grup 0', m)
 		throw 0
 	}
 	await conn.groupSettingChange(m.chat, GroupSettingChange.messageSend, isClose)
 }
-handler.help = ['group <close/close>']
+handler.help = ['group <msdod/m7lol>']
 handler.tags = ['group']
 handler.command = /^(gro?up)$/i
 
