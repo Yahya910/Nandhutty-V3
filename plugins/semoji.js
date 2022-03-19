@@ -4,23 +4,23 @@ const { EmojiAPI } = require("emoji-api")
 const emoji = new EmojiAPI()
 
 let handler = async (m, { conn, args, usedPrefix, command, isPrems }) => {
-  let er = `Example :
-*${usedPrefix}emo(space)app(space)❤️*
+  let er = `مثال :
+*${usedPrefix}emo(مسافة)app(مسافة)❤️*
 *${usedPrefix}emo ap ❤️*
 
 ┌〔 Options 〕
-├ ap = apple
-├ fa = facebook
-├ go = google
-├ ht = htc
+├ ap = ابل
+├ fa = فايسبوك
+├ go = غوغل
+├ ht = هطك
 ├ lg
-├ mi = microsoft
-├ mo = mozilla
-├ op = openmoji
-├ pi = pixel
-├ sa = samsung
-├ tw = twitter
-├ wh = whatsapp
+├ mi = ميكروسوف
+├ mo = موزيلا
+├ op = اوبنايموجي
+├ pi = بيكسل
+├ sa = سامسونغ
+├ tw = تويتر
+├ wh = واتساب
 └────
 
 Can only 1 emoji, pay attention to spaces, don't spam!`
